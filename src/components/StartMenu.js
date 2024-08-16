@@ -1,5 +1,5 @@
 import React from "react";
-
+import Power from "./Power";
 
 function StartMenu({ toggleStart, toggleMenu, isStartOpen }) {
   return (
@@ -226,7 +226,7 @@ function StartMenu({ toggleStart, toggleMenu, isStartOpen }) {
             <span>username</span>
           </div>
           <div className="spegni-pc-start-section">
-            {/* <Power toggleMenu={toggleMenu} toggleStart={toggleStart}/> */}
+            <Power toggleMenu={toggleMenu} toggleStart={toggleStart}/>
           </div>
         </div>
       </section>
