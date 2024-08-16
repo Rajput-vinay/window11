@@ -13,12 +13,17 @@ const display = document.getElementById("display");
 display.value += value;
 }
 
+
+//  functioning of calculate performing operation
 const calculate = () =>{
     const display = document.getElementById("display");
     try{
+        //  evaluate the screen result
         const result= eval(display.value);
         setClick((prevClick) => prevClick +1)
 
+
+        //  click on 0 show Namaskar
         if(click === 0){
             display.value = "Namaskar ji"
             setClick(1);
