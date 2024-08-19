@@ -1,17 +1,17 @@
-import React from 'react'
-// import StartMenu from './components/StartMenu'
-import Taskbar from './components/Taskbar'
-import Power from './components/Power'
-import RecycleBin from './components/RecycleBin'
-const App = () => {
+import React from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Lockscreen from "./Pages/lockscreen";
+import Main from "./Pages/main";
+
+function App() {
   return (
-    <div>
-        {/* <StartMenu /> */}
-        {/* <Taskbar /> */}
-        {/* <Power /> */}
-        <RecycleBin />
-    </div>
-  )
+    <Router>
+      <Routes>
+        <Route path="/" element={<Lockscreen />} />
+        <Route path="/:name" element={<Main />} />
+      </Routes>
+    </Router>
+  );
 }
 
-export default App
+export default App;
