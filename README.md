@@ -6,7 +6,7 @@ Welcome to the **Windows Clone** app, a fun and interactive simulation of the Wi
 
 - **🌐 Chrome**: Surf the web just like in a real Chrome browser.
 - **🧮 Calculator**: Perform basic arithmetic operations with this handy calculator.
-- **🕹️ Emoji Tic-Tac-Toe**: Play a fun game of Tic-Tac-Toe using emojis!
+- **🕹️ Tic-Tac-Toe**: Play a fun game of Tic-Tac-Toe !
 - **🎵 Spotify**: Enjoy a simulated music player interface.
 
 ## 💻 Usage
