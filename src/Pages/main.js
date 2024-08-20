@@ -22,10 +22,10 @@ function Main() {
   const [windows, setWindows] = useState({
     menu: false,
     start: false,
-    explorer: false,
+   
     browser: false,
     calculator: false,
-    vscode: false,
+  
     recycle: false,
     app: false,
   });
@@ -37,10 +37,10 @@ function Main() {
     setWindows({
       menu: false,
       start: false,
-      explorer: false,
+     
       browser: false,
       calculator: false,
-      vscode: false,
+      
       recycle: false,
       app: false,
       [window]: !windows[window],
